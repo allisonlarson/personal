@@ -4,8 +4,8 @@
 html {
   height: 100%;
 }
+
 body {
-  background: #C8CBCC;
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -34,31 +34,29 @@ a {
   justify-content: center;
 }
 
-.intro:hover {
+
+.intro {
+  width: 50%;
+
   .name {
+    font-size: 3rem;
+    font-weight: 600;
     border-bottom: 2px solid #ECC561;
   }
 
   .about {
-    display: flex;
+    display: block;
   }
 }
 
+.links {
+  padding: 2%;
+}
 
-.intro {
-  width: 50%;
-  .about {
-    padding: 5%;
-    display: none;
+.links {
+  left-margin: 2%;
+
+  a:hover {
+    border-bottom: 2px solid #ECC561;
   }
 }
-
-.icons {
-  padding: 5%;
-}
-
-.icon:hover {
-  border-bottom: 2px solid #ECC561;
-}
-
-
