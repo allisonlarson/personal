@@ -1,0 +1,18 @@
+body {
+  font-family: "monospace";
+  background-color: #f3e6ff
+}
+a:hover {
+  background: #c44eff;
+  color: white;
+}
+
+.cities {
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+.locations {
+  font-size: initial;
+  font-weight: normal;
+}
