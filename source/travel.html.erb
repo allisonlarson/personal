@@ -1,3 +1,13 @@
 <a href="/">Back</a>
-<h1>STUFF HERE</h1>
+<ul class="cities">
+  <% data.locations.each do |city, features| %>
+    <li><%= city %>
+    <ul class="locations">
+      <% features.each do |f| %>
+        <li><%= f %></li>
+      <% end %>
+    </ul>
+    </li>
+  <% end %>
+</ul>
 <a href="/">Back</a>
